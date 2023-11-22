@@ -1,0 +1,10 @@
+5) Write a program to sort a list of strings (similar to that of a dictionary):
+
+
+def sort_strings(strings):
+    return sorted(strings)
+
+# Example Usage:
+string_list = ["banana", "apple", "grape", "orange", "kiwi"]
+sorted_strings = sort_strings(string_list)
+print("Sorted list of strings:", sorted_strings)
